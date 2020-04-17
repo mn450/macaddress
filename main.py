@@ -7,7 +7,7 @@ search = sys.argv[1]
 URL = "https://api.macaddress.io/v1"
 
 # defining a params dict for the parameters to be sent to the API
-PARAMS = {'apiKey': 'at_2IwFcMoQvqQsJBa1l5shU0BzGavGH', 'output':'json', 'search': search}
+PARAMS = {'apiKey': 'your api key here', 'output':'json', 'search': search}
 
 # sending get request and saving the response as response object
 r = requests.get(url=URL, params=PARAMS)

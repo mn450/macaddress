@@ -1,6 +1,6 @@
 # Clone the macaddress repository.
 
-https://github.com/mn450/macaddress.git
+git clone https://github.com/mn450/macaddress.git
 
 # Change the api key as shown in below feild in main.py python file.
 

@@ -14,7 +14,7 @@ docker build -t testimage .
 
 docker run -ti testimage 98-22-EF-E3-42-AA
 
-# Finally you will get output of CompanyName with respect to 98-22-EF-E3-42-AA MAC-address
+# Finally you will get output of CompanyName with respect to MAC-address (98-22-EF-E3-42-AA ).
 
 root@test:/tmp/macaddress# docker run -ti testimage 98-22-EF-E3-42-AA
 
